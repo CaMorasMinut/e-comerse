@@ -14,5 +14,4 @@ export function useForm(initialValues) {
     };
 
     return { form, handleForm };
-
 }

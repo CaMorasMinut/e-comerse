@@ -5,7 +5,7 @@
   width: clamp(5rem, 6vw, 6rem);
   aspect-ratio: 2/1;
   object-fit: contain;
-  background: url('/whole-foods-logo.png') no-repeat center center;
+  background: url('/logos/originals_logo.svg') no-repeat center center;
   background-size: contain;
 }
 
@@ -17,6 +17,7 @@
   align-items: center;
   gap: 7.7rem;
   font-size: 1.3rem;
+  font-weight: 500;
 }
 
 .wrapperRightLinks {
@@ -35,11 +36,11 @@
   display: flex;
   justify-content: center;
   align-items: center;
-  color: var(--background);
+  color: var(--foreground);
   transition: transform 0.1s ease-in-out;
 
   &:hover {
-    color: rgb(135, 221, 188);
-    transform: translateY(-2px) scale(1.04);
+    color: rgb(92, 92, 92);
+    transform: translateY(-2px) scale(1.02);
   }
 }
